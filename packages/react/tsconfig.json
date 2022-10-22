@@ -1,0 +1,4 @@
+{
+  "extends": "@pedroksty-ui/ts-config/react.json",
+  "incluse": ["src"]
+}
