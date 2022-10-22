@@ -99,30 +99,13 @@ var {
   }
 });
 
-// src/index.tsx
-var Button = styled("button", {
-  fontFamily: "$default",
-  background: "$ignite500",
-  borderRadius: "$sm",
-  border: 0,
-  fontWeight: "bold",
-  color: "$white",
-  variants: {
-    size: {
-      small: {
-        padding: "$2 $4",
-        fontSize: 14
-      },
-      big: {
-        padding: "$3 $6",
-        fontSize: 16
-      }
-    }
-  },
-  defaultVariants: {
-    size: "small"
-  }
+// src/components/Box.tsx
+var Box = styled("div", {
+  padding: "$4",
+  borderRadius: "$md",
+  backgroundColor: "$gray800",
+  border: "1px solid $gray600"
 });
 export {
-  Button
+  Box
 };
